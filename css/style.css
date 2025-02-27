@@ -60,7 +60,7 @@ body {
     position: relative;
     z-index: 2;
     margin-top: 50px;
-    max-width: 800px; /* Limit width for better readability */
+    max-width: 900px;
 }
 
 .hero-content h1 {
@@ -68,13 +68,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     max-width: 900px;
-    margin: 0 auto;
-}
-
-.hero-content p {
-    font-size: 1.2rem; /* Adjusted for consistency with the image */
-    line-height: 1.5; /* Improved readability */
-    max-width: 600px; /* Limit width for paragraph text */
+    margin: 50px;
+    line-height: 125%; 
 }
 
 .hero-bg {
@@ -128,21 +123,21 @@ body {
 .work-image {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url('img/img-bg/sara.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 50px;
     opacity: 0.2;
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Work image hover effect */
+
 .work-image:hover {
     opacity: 0.7;
     cursor: pointer;
-    outline: 2px solid white;
+    outline: 2px solid rgb(178, 0, 254);
 }
 
 h2, p {
@@ -156,23 +151,22 @@ h2, p {
     margin: 0 auto;
 }
 
-/* Heading Styles */
+
 h1 {
-    font-weight: 700; /* Bold */
-    font-size: 48px;  /* Adjust based on reference size */
+    font-weight: 700; 
+    font-size: 5rem;  
     margin: 0;
 }
 
 h2 {
-    font-weight: 700; /* Bold */
-    font-size: 36px;  /* Adjust based on reference size */
+    font-weight: 700;
+    font-size: 3rem; 
     margin: 10px 0;
 }
 
-/* Paragraph Styles */
 p {
-    font-weight: 400; /* Regular */
-    font-size: 18px;  /* Adjust based on reference size */
+    font-weight: 400;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -190,16 +184,15 @@ p {
     justify-content: space-between;
 }
 
-/* Individual Column */
 .column {
     flex: 1;
-    margin: 0 10px; /* Space between columns */
+    margin: 0 10px; 
 }
 
 /* Responsive */
 @media (max-width: 800px) {
     .columns {
-        flex-direction: column; /* Stack columns on smaller screens */
+        flex-direction: column;
     }
 }
 
